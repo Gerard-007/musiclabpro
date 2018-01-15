@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>signup|musicpacks</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="static/css/flaticon.css" rel="stylesheet" type="text/css" > 
+    </head>
+<!-- =================================================================================== -->
+
+
+    <body>
+        {% include 'navbar' %}
+
+        <!-- Registeration Form for users -->
+        <div class="container">
+        
+            <div class="row">
+                <div class="col m12">
+                    <h3>Registeration Form</h3>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password" type="password" class="validate">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <button class="btn btn-flat blue waves-effect waves-light white-text">Click Me</button>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        <!--login modal-->
+        <!-- <div id="modalLogin" class="modal">
+            <div class="modal-content">
+                <h2 class="center-align">Login</h2>
+                <div class="center-align">
+                    <div class="divider"></div>
+                    <form class="col s12">
+                        <div class="row center-align">
+                            <div class="input-field col m10 offset-m1 blue-text">
+                                <i class="mdi-action-account-circle prefix"></i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Username</label>
+                            </div>
+                            <div class="input-field col m10 offset-m1 blue-text ">
+                                <i class="mdi-action-lock-open prefix"></i>
+                                <input id="icon_password" type="password" class="validate">
+                                <label for="icon_password">Password</label>
+                            </div>
+                            <div class="input-field col m10 offset-m1 blue-text">
+                                <input type="checkbox" class="blue-text" id="filled-in-box" checked="checked">
+                                <label for="filled-in-box">Remember me next time</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="divider"></div>
+                    <p>
+                        <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
+                        <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
+                    </p>
+                </div>
+            </div>
+        </div> -->
+    
+
+    {% include 'footer-nav' %}
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="static/js/materialize.js"></script>
+        <script src="static/js/default.js"></script>
+        <script src="static/js/init.js"></script>
+
+    </body>
+</html>
