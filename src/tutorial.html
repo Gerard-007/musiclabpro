@@ -21,29 +21,36 @@
         <div class="row">
 
           <!-- This column contains a navigational side menu for the tutorial page -->
-
-          <div class="col s12 m2 l2 tutorrial_side_menu">
-            <ul id="slide-out" class="side-nav fixed" style="transform: translateX(0%); width:15%;">
-              <li><a href="#!">First Sidebar Link</a></li>
-              <li><a href="#!">Second Sidebar Link</a></li>
-            </ul>
-
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-          </div>
+            <div class="col m1 l2 s2 black">
+              <section>
+                  <div class="container-fluid">
+                    <div class="valign-wrapper">
+                        <ul class="nav">
+                          <li class="centre-align"><a href="base.html"><i class="material-icons left-align">home</i><h6 class="hide-on-med-and-down right">Home</h6></a></li>
+                          <li class="centre-align" style="margin-top:30px"><a href="#!"><i class="material-icons left-align">school</i><h6 class="hide-on-med-and-down right">Enroll</h6></a></li>
+                          <li class="centre-align" style="margin-top:30px"><a href="#!"><i class="material-icons left-align">settings</i><h6 class="hide-on-med-and-down right">Settings</h6></a></li>
+                          <li class="centre-align" style="margin-top:160px"><a href="#!"><i class="material-icons left-align">person_add</i><h6 class="hide-on-med-and-down right">Sign up</h6></a></li>
+                          <li class="centre-align" style="margin-top:30px"><a href="#!"><i class="material-icons left-align">person</i><h6 class="hide-on-med-and-down right">Sign in</h6></a></li>
+                          <li class="centre-align" style="margin-top:30px"><a href="#!"><i class="material-icons left-align">person_outline</i><h6 class="hide-on-med-and-down right">Log out</h6></a></li>
+                        </ul>
+                    </div><!-- valign-wrapper -->
+                  </div>
+              </section>
+            </div><!-- col s12 m2 l2 -->
           <!--// This column contains a navigational side menu for the tutorial page //-->
 
 
           <!-- This column contains both greetings and available topics thumbnails -->
-          <div class="col s12 m10 l10 tutorial_main_body">
+          <div class="col m10 l10 s10 tutorial_main_body">
             <div class="container-fluid">
-
 
               <!-- This contains welcome message for tutorial page -->
               <div class="row">
                 <h4 class="center-align flow-text">This is a test</h4>
-                <p class="center-align">We will return in a moment.</p>
+                <p class="center-align flow-text">We will return in a moment.</p>
               </div><!-- row -->
               <!--// This contains welcome message for tutorial page //-->
+
 
               <hr width="40%">
               <br>
@@ -56,15 +63,18 @@
                   <div class="card hoverable">
                       <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="static/imgs/writing_music_1.jpg">
-                        <span class="card-title activator grey-text text-darken-2">
-                          <h6 class="row-center center-align">topic</h6>
-                          <i class="material-icons right">more_vert</i>
-                          <h6 class="truncate center-align"><a href="#">This is a link</a></h6></span>
+                        <div class="valign-wrapper">
+                            <span class="card-title activator grey-text text-darken-2">
+                              <h6 class="row-center">topic</h6>
+                              <i class="material-icons right">more_vert</i>
+                              <p class="truncate"><a href="#">This is a link</a></p>
+                            </span>
+                        </div>
                       </div><!-- card-image waves-effect waves-block waves-light -->
                       <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4">
+                          <span class="card-title flow-tex grey-text text-darken-4">
                             Card Title<i class="material-icons right">close</i></span>
-                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                          <p  class="flow-text">Here is some more information about this product that is only revealed once clicked on.</p>
                       </div><!-- card-reveal -->
                   </div><!-- card -->     
                 </div><!-- col s3 -->
