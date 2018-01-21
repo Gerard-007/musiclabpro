@@ -1,8 +1,17 @@
+html, body {
+  height: 100%;
+  min-height:100%; /* make sure it is at least as tall as the viewport */
+}
+
 body {
   background-color: #F5F5F5;
   color: #484848;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
+  height: auto;
+  margin:0;
+  height:100vh; /* This is needed to overcome a Chrome bug. */
+  width: 100vw;
 }
 
 h1 {
@@ -67,4 +76,95 @@ footer.page-footer {
 
 footer.footer-copyright.container{
   margin: 0;
+  text-align: center;
+}
+
+
+/* About us video content css */
+body .about_us_video_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+body .about_us_video_container video {
+  height: inherit;
+  width: inherit;
+  position: relative;
+  border-radius: 5px;
+  /* z-index: 1; */
+}
+body .about_us_video_overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 5px;
+  left: 10px;
+  right: 10px;
+  /* z-index: 2; */
+  border-radius: 5px;
+  background: #0067E3;
+  opacity: 0.5;
+}
+
+
+/* Tutorial side nav css design */
+body .tutorial_side_nav_menu {
+  margin-left: 0px;
+  margin-top: 70px;
+
+}
+
+/* the home menu padding and margins */
+body .tutorial_side_nav_top_menu {
+  margin-left: 0px;
+}
+
+body #tutorial_side_nav_column {
+  padding: 20px;
+  width: inherit;
+  height: 100vh;
+  position: fixed;
+}
+
+body #tutorial_main_body {
+  margin-left: 75px;
+  height: auto;
+  width: auto;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+}
+
+/* user side nav */
+.side-nav .user-view #user_image{
+  border: 3px solid #5CA6DB;
+}
+
+.user_side_nav{
+  position: relative;
+}
+
+body .home_and_lesson {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+body .lesson_and_topic {
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+body .topic_list{
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+body #home_icon{
+  margin-right: 5px;
+  font-size: 40px;
 }

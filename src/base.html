@@ -18,53 +18,29 @@
 		<!-- contains the navbar of the site -->
 		<header>
 			<!-- the page main nav bar -->
-				<nav class="transparent blue-text text-darken-2" role="navigation">
-					<div class="nav-wrapper container">
-						<a id="logo-container" href="#" class="brand-logo">musicpacks</a>
-						<ul class="right hide-on-med-and-down">
-							<li><a href="base.html">home</a></li>
-							<li><a href="tutorial.html">tutorials</a></li>
-							<li><a href="community.html">community</a></li>
-							<li><a href="blog.html">blog</a></li>
-						</ul>
+			<nav class="transparent blue-text text-darken-2" role="navigation">
+				<div class="nav-wrapper container">
+					<a id="logo-container" href="#" class="brand-logo">musicpacks</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="base.html">home</a></li>
+						<li><a href="course_list.html">tutorials</a></li>
+						<li><a href="community.html">community</a></li>
+						<li><a href="blog.html">blog</a></li>
+					</ul>
 
-						<!-- mobile navigation menu -->
-						<ul id="nav-mobile" class="side-nav">
-						<ul class="right hide-on-med-and-down">
+					<!-- mobile navigation menu -->
+					<ul id="nav-mobile" class="side-nav">
+					<ul class="right hide-on-med-and-down">
 
-						</ul>
-							<li><a href="base.html">home</a></li>
-							<li><a href="tutorial.html">tutorials</a></li>
-							<li><a href="community.html">community</a></li>
-							<li><a href="blog.html">blog</a></li>
-						</ul>
-						<a href="#" data-activates="nav-mobile" class="button-collapse"><span class="material-icons">menu</span></a>
-					</div>
-				</nav>
-			<!--// the page main nav bar -->
-
-			<!-- if user is authrnticated  dispmenu else hide the menulay this  -->
-
-				<!-- <ul id="slide-out" class="side-nav">
-					<li>
-						<div class="user-view">
-							<div class="background">
-							<img src="static/imgs/prof_icon.jpg">
-							</div>
-							<a href="#!user"><img class="circle" src="static/imgs/prof_icon.jpg"></a>
-							<a href="#!name"><span class="white-text name">John Doe</span></a>
-							<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-						</div>
-					</li>
-					<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-					<li><a href="#!">Second Link</a></li>
-					<li><div class="divider"></div></li>
-					<li><a class="subheader">Subheader</a></li>
-					<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-				</ul>
-				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a> -->
-		
-			<!-- // if user is authrnticated  dispmenu else hide the menulay this // -->	
+					</ul>
+						<li><a href="base.html">home</a></li>
+						<li><a href="course_list.html">tutorials</a></li>
+						<li><a href="community.html">community</a></li>
+						<li><a href="blog.html">blog</a></li>
+					</ul>
+					<a href="#" data-activates="nav-mobile" class="button-collapse"><span class="material-icons">menu</span></a>
+				</div>
+			</nav>
 		</header>
 
 		<!-- ==== Head Paralax image ==== -->	
@@ -81,7 +57,7 @@
 					</div><!-- row center -->
 
 					<div class="row center">
-						<a href="tutorial.html" id="download-button" class="btn-large btn-flat waves-effect waves-light blue lighten-1">Get Started</a>
+						<a href="course_list.html" id="download-button" class="btn-large btn-flat waves-effect waves-light blue lighten-1">Get Started</a>
 					</div><!-- row center -->
 					<br>
 					<br>
@@ -110,11 +86,11 @@
 			</div><!-- section -->
 		</div><!-- container -->
 
-<hr width="40%">
-<br>
-<br>
+	<hr width="40%">
+	<br>
+	<br>
 
-	<!--===================================================-->
+		<!--===================================================-->
 		<div class="parallax-container valign-wrapper">
 			<div class="section no-pad-bot">
 				<div class="container">
@@ -131,7 +107,7 @@
 		</div><!-- parallax-container valign-wrapper -->
 			
 			
-	<!--==============//article container=================-->
+		<!--==============// article container //=================-->
 		<div class="container-fluid">
 			<div class="section">
 
@@ -172,7 +148,7 @@
 		</div><!-- container -->  
 			
 
-	<!-- ====================/ Second container /========================= -->
+		<!-- ====================/ Second container /========================= -->
 		<div class="container-fluid">
 			<div class="section">
 
@@ -211,36 +187,56 @@
 		</div><!-- container -->  
 	
 
-<hr width="40%">
-<br>
-<br>		
+	<hr width="40%">
+	<br>
+	<br>		
 
-<section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col s12 m7">
-				<video class="responsive-video" width="100%" controls>
-	    			<source src="#" type="video/mp4">
-	  			</video>
+		<!-- This section contains the about us videos with message -->
+		<section>
+			<div class="row">
+				<div class="container">
+
+					<div class="col s12 about_us_video_container">
+						<video class="responsive-video"  autoplay loop muted>
+							<source src="static/media/about_us.mp4" type="video/mp4">
+							<!-- <source src="#" type="video/webm"> -->
+						</video>
+						<div class="about_us_video_overlay">
+								<br>
+								<br>
+							<h6 class="center-align white-text">MUSICPACK</h6>
+								<br>
+							<h5 class="center-align white-text">TAKE SOME MUSIC LESSONS WITH US</h5>
+								<br>
+							<p class="center-align white-text">
+								We have a variety of basic music lessons available for all.<br>
+								the courses would be updated each day and published here.<br>
+								course materials and notes would be made available
+							</p>
+						</div><!-- col s12 about_us_video_container -->
+					</div>
+				</div>
 			</div>
+		</section>
 
-			<div class="col s12 m5">
-				<h4>We will return in a moment</h4>
-				<p>This is a test, we will be back soon</p>
+
+		<br>
+		<hr width="40%">
+		<br>
+
+
+		<!-- This section contains the students testimonies -->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
+		</section>
 
 
-<br>
-<br>
-<hr width="40%">
-<br>
-<br>
-
-			
-	<!-- ================Footer section=============== -->
+		<!-- ================Footer section=============== -->
 		<footer class="page-footer blue lighten-1">
 			<div class="container-fluid">
 				<div class="row">
