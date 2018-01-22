@@ -1,4 +1,4 @@
-# musicpacks
+# musiclabpro.com
 This is a music tutorial site for all music learners and enthusiasts, with this platform, the learners would be fully equiped with the basic music knowledge they seek. 
 
 - This site is currently in production. 
